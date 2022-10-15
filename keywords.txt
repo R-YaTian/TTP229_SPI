@@ -5,3 +5,7 @@ getKey		KEYWORD2
 isKeyPress	KEYWORD2
 isKeyDown	KEYWORD2
 isKeyUp		KEYWORD2
+
+setCbChange KEYWORD2
+setCbDown	KEYWORD2
+setCbUp		KEYWORD2
