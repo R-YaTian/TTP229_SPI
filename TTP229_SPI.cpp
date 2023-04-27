@@ -7,18 +7,18 @@
 
 
 int findKey(uint16_t bits) {
+        int i = 0;
 	if (bits) {
-		int i = 0;
 		for (uint16_t mask = 0x0001; mask; mask <<= 1) {
 			if (mask & bits) {
 				return i;
 			}
 			++i;
 		}
-	}
-	else {
+	} else {
 		return -1;
 	}
+	return i;
 }
 
 void TTP229_SPI::begin(void) {
